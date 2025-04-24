@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Deploying...'
                 // Run the Java program with an example argument
-                sh 'java -cp target ToUpper "example text"'
+                sh 'java -cp target ToUpper "tres tristes tigres"'
             }
         }
     }
